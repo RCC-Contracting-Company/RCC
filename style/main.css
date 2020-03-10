@@ -1,0 +1,231 @@
+@font-face {
+  font-family: myFont;
+  src: url("../fonts/a-jannat-lt-bold.ttf");
+}
+
+@font-face {
+  font-family: myFontLight;
+  src: url("../fonts/a-jannat-lt.ttf");
+}
+
+*:focus {
+  outline: none;
+}
+
+* {
+  font-family: myFont;
+}
+
+header {
+  overflow: hidden;
+}
+
+header .header-img {
+  width: 100%;
+  height: 800px;
+  background: url("../res/header_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#packages {
+  background-image: url(../res/body_water-mark.svg);
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: -270px;
+  background-position-x: 1075px;
+}
+
+#packages .slider {
+  padding-top: 20px;
+}
+
+#packages .titles {
+  padding-top: 50px;
+  text-align: center;
+}
+
+#packages .titles h5 {
+  color: rgb(185, 185, 185);
+  padding: 10px 0px;
+  font-family: myFontLight;
+}
+
+#packages .slick-slide {
+  height: 1420px;
+  margin: 0 10px;
+}
+
+#packages .card {
+  border: 2px solid rgb(196, 0, 0);
+  box-shadow: 0px 4px 2px 2px rgb(146, 146, 146);
+}
+
+#packages .card h4 {
+  text-align: center;
+  color: rgb(196, 0, 0);
+}
+
+#packages .card .card-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#packages .card-text {
+  text-align: center;
+  color: rgb(185, 185, 185);
+  font-size: 16px;
+  font-family: myFontLight;
+}
+
+#packages .card h5 {
+  text-align: center;
+  color: rgb(196, 0, 0);
+}
+
+#packages .card ul {
+  text-align: right;
+  line-height: 1.7em;
+  list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/15px-Yes_Check_Circle.svg.png);
+}
+
+#packages #special .container {
+  width: inherit;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#packages .offer {
+  text-align: center;
+  color: rgb(196, 0, 0);
+  border: 2px solid rgba(196, 0, 0, 0.884);
+  border-radius: 3px;
+  box-shadow: 0px 4px 2px 2px rgb(146, 146, 146);
+  padding: 20px 0px;
+}
+
+#packages .offer h5 {
+  padding-top: 10px;
+  color: rgb(44, 44, 44);
+}
+
+#contact-us {
+  margin-top: 50px;
+}
+
+#contact-us .contact-info h1 {
+  text-align: center;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+
+#contact-us .contact-info .row {
+  background-color: rgb(196, 0, 0);
+  text-align: right;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 60px;
+  z-index: 999;
+  position: absolute;
+  margin: 30px 0px 0px 50px;
+}
+
+#contact-us .contact-info .row .top {
+  height: 180px;
+}
+
+#contact-us .contact-info .row h2,
+#contact-us .contact-info .row h5,
+#contact-us .contact-info .row h3,
+#contact-us .contact-info .row span {
+  color: white;
+  margin-bottom: 10px;
+}
+
+#contact-us .contact-info .row h4 {
+  color: rgb(100, 0, 0);
+}
+
+#contact-us .contact-info .row .dash {
+  margin-top: 70px;
+  float: right;
+  background-color: white;
+  width: 100px;
+  height: 5px;
+}
+
+#contact-us iframe {
+  padding-top: 300px;
+  margin: 0px 0px 0px 55px;
+}
+
+@media (min-width: 769px) and (max-width: 1199px) {
+  #packages .slick-slide {
+    height: 1650px;
+  }
+}
+
+@media (min-width: 520px) and (max-width: 768px) {
+  #packages .slick-slide {
+    height: 1200px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  #packages .slick-slide {
+    height: 1300px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  #packages .slick-slide {
+    height: 1400px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  header .header-img {
+    background-size: contain;
+    height: 1000px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1500px) {
+  header .header-img {
+    background-size: contain;
+    height: 700px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  header .header-img {
+    background-size: contain;
+    height: 500px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  header .header-img {
+    background-size: contain;
+    height: 400px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 599px) {
+  header .header-img {
+    background-size: contain;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  header .header-img {
+    background-size: contain;
+    height: 200px;
+  }
+}
