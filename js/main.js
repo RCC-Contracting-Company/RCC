@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  new WOW().init();
   $(".slider").slick({
     // dots: true,
     arrow: true,
