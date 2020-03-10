@@ -248,4 +248,7 @@ header .header-img {
   #contact-us .contact-info .row .bottom {
     margin-top: 40px;
   }
+  #contact-us .contact-info .row .dash {
+    margin-top: 100px;
+  }
 }
